@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zvqbh2aOKcoskvnayM1YbbHf+4H3eWlOGW5BLb3CItxjPk+nWNGQJ+NQSYorTYA3TvB+cwPPQApLnOi4qo7rQg==",
+  "dgSpecHash": "BDMoS4xj8FHpFNPfX6nRyLTBqA1G6N0F96fCWnGb0E1IIrMZrGOI8M9TJmtZEEte61XkBQmJROn4biYwFmZapg==",
   "success": true,
-  "projectFilePath": "C:\\William\\Cursos\\Microservico\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.Web\\LojaShopping.Web.csproj",
+  "projectFilePath": "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.Web\\LojaShopping.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wills\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\wills\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

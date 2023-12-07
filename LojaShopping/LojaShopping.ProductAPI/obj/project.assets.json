@@ -2012,11 +2012,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\William\\Cursos\\Microservico\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.ProductAPI\\LojaShopping.ProductAPI.csproj",
+      "projectUniqueName": "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.ProductAPI\\LojaShopping.ProductAPI.csproj",
       "projectName": "LojaShopping.ProductAPI",
-      "projectPath": "C:\\William\\Cursos\\Microservico\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.ProductAPI\\LojaShopping.ProductAPI.csproj",
+      "projectPath": "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.ProductAPI\\LojaShopping.ProductAPI.csproj",
       "packagesPath": "C:\\Users\\wills\\.nuget\\packages\\",
-      "outputPath": "C:\\William\\Cursos\\Microservico\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.ProductAPI\\obj\\",
+      "outputPath": "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.ProductAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
