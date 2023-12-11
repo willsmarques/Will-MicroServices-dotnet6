@@ -1,6 +1,6 @@
 # Microsserviços .NET 6 e ASP.NET(EM CONTRUÇÃO)
 
-## Criando um sistema de e-commerce com microsserviços .NET 6 e ASP.NET
+## Criando um sistema de e-commerce com microsserviços .NET 7 e ASP.NET
 
 Este projeto é um sistema de e-commerce simples, desenvolvido com microsserviços .NET 6 e ASP.NET. O objetivo é aprender e praticar os fundamentos de arquitetura de microsserviços.
 
