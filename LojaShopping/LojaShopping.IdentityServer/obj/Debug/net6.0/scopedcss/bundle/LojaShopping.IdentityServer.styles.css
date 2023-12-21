@@ -1,0 +1,49 @@
+/* _content/LojaShopping.IdentityServer/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-udn5nltyuv] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-udn5nltyuv] {
+  color: #0077cc;
+}
+
+.btn-primary[b-udn5nltyuv] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-udn5nltyuv], .nav-pills .show > .nav-link[b-udn5nltyuv] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-udn5nltyuv] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-udn5nltyuv] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-udn5nltyuv] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-udn5nltyuv] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-udn5nltyuv] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

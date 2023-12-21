@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\LojaShopping.Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.Web\\wwwroot\\Imagens\\favicon.png",
+      "PackagePath": "staticwebassets\\Imagens\\favicon.png"
+    },
+    {
+      "Id": "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.Web\\wwwroot\\Imagens\\geek_shopping.png",
+      "PackagePath": "staticwebassets\\Imagens\\geek_shopping.png"
+    },
+    {
       "Id": "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

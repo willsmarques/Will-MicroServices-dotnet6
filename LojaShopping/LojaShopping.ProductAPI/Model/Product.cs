@@ -13,7 +13,7 @@ public class Product : BaseEntity
     [StringLength(150)]
     public string Name { get; set; }
 
-    [Column("preco")]
+    [Column("Preco")]
     [Required]
     [Range(1,10000)]
     public decimal Preco { get; set; }
