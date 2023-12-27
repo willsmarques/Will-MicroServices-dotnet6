@@ -1,8 +1,8 @@
 ﻿using LojaShopping.ProductAPI.Data.ValorObjetos;
 using LojaShopping.ProductAPI.Repositorio;
-using Microsoft.AspNetCore.Http;
+using LojaShopping.ProductAPI.Utils;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics.CodeAnalysis;
 
 namespace LojaShopping.ProductAPI.Controllers
 {
@@ -13,6 +13,7 @@ namespace LojaShopping.ProductAPI.Controllers
         private IProdutoRepositorio _repositorio;
 
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<ProdutoVO>> Create([FromBody] ProdutoVO vo)
         {
             if (vo == null)
@@ -22,7 +23,8 @@ namespace LojaShopping.ProductAPI.Controllers
         }
 
        [HttpPut]
-       public async Task<ActionResult<ProdutoVO>> Update([FromBody]  ProdutoVO vo)
+       [Authorize]
+        public async Task<ActionResult<ProdutoVO>> Update([FromBody]  ProdutoVO vo)
         {
            if(vo == null)
                 return BadRequest();
@@ -36,7 +38,8 @@ namespace LojaShopping.ProductAPI.Controllers
                 ArgumentNullException(nameof(repositorio));
         }
 
-        [HttpGet] 
+        [HttpGet]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<ProdutoVO>>> FindAll()
         {
             var produtos = await _repositorio.FindAll();
@@ -46,6 +49,7 @@ namespace LojaShopping.ProductAPI.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize]
         public async Task<ActionResult<ProdutoVO>> FindById(long id)
         {
             var produto = await _repositorio.FindById(id);
@@ -56,6 +60,7 @@ namespace LojaShopping.ProductAPI.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = Role.Admin)]
         public async Task<ActionResult> Delete(long id)
         {
             var status = await _repositorio.DeleteById(id);
