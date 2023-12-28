@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaShopping.Web", "LojaSho
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaShopping.ProductAPI", "LojaShopping.ProductAPI\LojaShopping.ProductAPI.csproj", "{18387025-7E1D-4AF9-8B64-4C93496D79A1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaShopping.IdentityServer", "..\..\Microservico\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.IdentityServer\LojaShopping.IdentityServer.csproj", "{ED880353-415E-4424-9DAB-67E5F7A42E84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaShopping.IdentityServer", "LojaShopping.IdentityServer\LojaShopping.IdentityServer.csproj", "{53CF95E2-1DA2-4982-B1B2-323FD2E932CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +27,10 @@ Global
 		{18387025-7E1D-4AF9-8B64-4C93496D79A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18387025-7E1D-4AF9-8B64-4C93496D79A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18387025-7E1D-4AF9-8B64-4C93496D79A1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ED880353-415E-4424-9DAB-67E5F7A42E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ED880353-415E-4424-9DAB-67E5F7A42E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ED880353-415E-4424-9DAB-67E5F7A42E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ED880353-415E-4424-9DAB-67E5F7A42E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53CF95E2-1DA2-4982-B1B2-323FD2E932CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53CF95E2-1DA2-4982-B1B2-323FD2E932CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53CF95E2-1DA2-4982-B1B2-323FD2E932CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53CF95E2-1DA2-4982-B1B2-323FD2E932CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,7 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{460766BA-60DE-457A-AD40-804940DD32E5} = {902524BF-CBEF-41FD-8BE2-04F634F39850}
 		{18387025-7E1D-4AF9-8B64-4C93496D79A1} = {778045AD-FAE7-4152-8F3F-E663D85BB5A6}
-		{ED880353-415E-4424-9DAB-67E5F7A42E84} = {778045AD-FAE7-4152-8F3F-E663D85BB5A6}
+		{53CF95E2-1DA2-4982-B1B2-323FD2E932CA} = {778045AD-FAE7-4152-8F3F-E663D85BB5A6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1FFFAEA8-0281-4D7E-B498-2504A2B64AC8}

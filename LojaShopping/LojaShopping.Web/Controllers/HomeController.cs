@@ -19,7 +19,7 @@ namespace LojaShopping.Web.Controllers
             _productService = productService;
         }
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
             return View();
         }
