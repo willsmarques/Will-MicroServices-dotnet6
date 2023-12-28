@@ -19,7 +19,7 @@ namespace LojaShopping.Web
             builder.Services.AddAuthentication(opt => {
 
                 opt.DefaultScheme = "Cookies";
-                opt.DefaultAuthenticateScheme = "oidc";
+                opt.DefaultChallengeScheme = "oidc";
             }).AddCookie("Cookies", c => c.ExpireTimeSpan = TimeSpan.FromMinutes(10))
             .AddOpenIdConnect("oidc",opt =>
             {
