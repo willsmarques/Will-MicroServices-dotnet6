@@ -1,3 +1,6 @@
+using Duende.IdentityServer.AspNetIdentity;
+using Duende.IdentityServer.Services;
+using LojaShopping.IdentityServer.Services;
 using LojaShopping.IdentityServer.Configuration;
 using LojaShopping.IdentityServer.Initializer;
 using LojaShopping.IdentityServer.Model;
@@ -27,15 +30,16 @@ namespace LojaShopping.IdentityServer
                    {
                        opt.Events.RaiseErrorEvents = true;
                        opt.Events.RaiseInformationEvents = true;
+                       opt.Events.RaiseFailureEvents = true;
                        opt.Events.RaiseSuccessEvents = true;
                        opt.EmitStaticAudienceClaim = true;
-
                    }).AddInMemoryIdentityResources(IdentityConfiguration.IdentityResources)
                      .AddInMemoryApiScopes(IdentityConfiguration.ApiScope)
                      .AddInMemoryClients(IdentityConfiguration.Cliente)
                      .AddAspNetIdentity<ApplicationUser>();
 
             builder.Services.AddScoped<IDbInitializer, DbInitializer>();
+            builder.Services.AddScoped<IProfileService, ProfileService>();
 
             b.AddDeveloperSigningCredential();
 
