@@ -7,43 +7,43 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LojaShopping.Web.Controllers
 {
-    public class ProductController : Controller
+    public class ProdutoController : Controller
     {
         private readonly IProductService _productService;
 
-        public ProductController(IProductService productService)
+        public ProdutoController(IProductService productService)
         {
             _productService = productService ?? throw new ArgumentNullException(nameof(productService));
         }
 
-        [Authorize]
-        public async Task<IActionResult> ProductIndex()
+        //[Authorize]
+        public async Task<IActionResult> ProdutoIndex()
         {
             var token = await HttpContext.GetTokenAsync("access_token");
             var products = await _productService.FindAllProducts(token);
             return View(products);
         }
 
-        public IActionResult ProductCreate()
+        public IActionResult CriarProduto()
         {
             return View();
         }
 
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> ProductCreate(ProductModel model)
+        public async Task<IActionResult> CriarProduto(ProductModel model)
         {
             if (ModelState.IsValid)
             {
                 var token = await HttpContext.GetTokenAsync("access_token");
                 var response = await _productService.CreateProduct(model, token);
                 if (response != null) return RedirectToAction(
-                     nameof(ProductIndex));
+                     nameof(ProdutoIndex));
             }
             return View(model);
         }
 
-        public async Task<IActionResult> ProductUpdate(int id)
+        public async Task<IActionResult> ProdutoUpdate(int id)
         {
             var token = await HttpContext.GetTokenAsync("access_token");
             var model = await _productService.FindProductById(id, token);
@@ -53,20 +53,20 @@ namespace LojaShopping.Web.Controllers
 
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> ProductUpdate(ProductModel model)
+        public async Task<IActionResult> ProdutoUpdate(ProductModel model)
         {
             if (ModelState.IsValid)
             {
                 var token = await HttpContext.GetTokenAsync("access_token");
                 var response = await _productService.UpdateProduct(model, token);
                 if (response != null) return RedirectToAction(
-                     nameof(ProductIndex));
+                     nameof(ProdutoIndex));
             }
             return View(model);
         }
 
-        [Authorize]
-        public async Task<IActionResult> ProductDelete(int id)
+        //[Authorize]
+        public async Task<IActionResult> ProdutoDelete(int id)
         {
             var token = await HttpContext.GetTokenAsync("access_token");
             var model = await _productService.FindProductById(id, token);
@@ -76,12 +76,12 @@ namespace LojaShopping.Web.Controllers
 
         [HttpPost]
         [Authorize(Roles = Role.Admin)]
-        public async Task<IActionResult> ProductDelete(ProductModel model)
+        public async Task<IActionResult> ProdutoDelete(ProductModel model)
         {
             var token = await HttpContext.GetTokenAsync("access_token");
             var response = await _productService.DeleteProductById(model.Id, token);
             if (response) return RedirectToAction(
-                    nameof(ProductIndex));
+                    nameof(ProdutoIndex));
             return View(model);
         }
     }
