@@ -1,8 +1,39 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model IEnumerable<LojaShopping.Web.Models.ProductModel>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <form>
+
+        <div class="container row">
+            @foreach(var pr in Model)
+            {
+                <div class="col-4">
+                    <div class="p-0 my-3 border">
+                        <div class="card">
+                            <img src="@pr.ImageURL" class="card-img-top">
+                            <div class="card-body">
+                                <h3 class="card-title text-success">@pr.SubstringNome()</h3>
+                                <span class="badge badge-ligth mb-2">@pr.NomeCategoria</span>
+                                <p class="card-text">@Html.Raw(pr.SubstringDescricao())</p>
+                                <div class="row">
+                                    <div class="col pt-1">
+                                        <span style="font-size:23px;">@string.Format("{0:c}",pr.Preco)</span>
+                                    </div>
+                                    <div class="col">
+                                        <a asp-action="Details" asp-route-id="@pr.Id" class="btn btn-success form-control">
+                                            Detalhe
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            
+            }
+
+        </div>
+
+    </form>

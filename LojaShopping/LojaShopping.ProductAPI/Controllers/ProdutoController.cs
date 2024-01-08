@@ -39,7 +39,6 @@ namespace LojaShopping.ProductAPI.Controllers
         }
 
         [HttpGet]
-        [Authorize]
         public async Task<ActionResult<IEnumerable<ProdutoVO>>> FindAll()
         {
             var produtos = await _repositorio.FindAll();

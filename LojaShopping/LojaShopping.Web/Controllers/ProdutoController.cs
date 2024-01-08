@@ -19,8 +19,7 @@ namespace LojaShopping.Web.Controllers
         //[Authorize]
         public async Task<IActionResult> ProdutoIndex()
         {
-            var token = await HttpContext.GetTokenAsync("access_token");
-            var products = await _productService.FindAllProducts(token);
+            var products = await _productService.FindAllProducts("");
             return View(products);
         }
 
