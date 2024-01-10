@@ -1,5 +1,5 @@
-using LojaShopping.Web.Models.Services;
-using LojaShopping.Web.Models.Services.IService;
+using LojaShopping.Web.Services;
+using LojaShopping.Web.Services.IService;
 using Microsoft.AspNetCore.Authentication;
 
 namespace LojaShopping.Web
@@ -12,6 +12,9 @@ namespace LojaShopping.Web
 
             builder.Services.AddHttpClient<IProductService, ProductService>(
                      c => c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:ProductAPI"]));
+           
+            builder.Services.AddHttpClient<ICartService, CartService>(
+                    c => c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:CartAPI"]));
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

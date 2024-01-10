@@ -1,5 +1,5 @@
 ﻿using LojaShopping.Web.Models;
-using LojaShopping.Web.Models.Services.IService;
+using LojaShopping.Web.Services.IService;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

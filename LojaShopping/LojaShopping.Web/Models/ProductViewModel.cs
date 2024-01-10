@@ -2,7 +2,7 @@
 
 namespace LojaShopping.Web.Models;
 
-public class ProductModel
+public class ProductViewModel
 {
     public long Id { get; set; }
 

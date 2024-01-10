@@ -1,5 +1,5 @@
 ﻿using LojaShopping.Web.Models;
-using LojaShopping.Web.Models.Services.IService;
+using LojaShopping.Web.Services.IService;
 using LojaShopping.Web.Utils;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
@@ -30,7 +30,7 @@ namespace LojaShopping.Web.Controllers
 
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> CriarProduto(ProductModel model)
+        public async Task<IActionResult> CriarProduto(ProductViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -52,7 +52,7 @@ namespace LojaShopping.Web.Controllers
 
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> ProdutoUpdate(ProductModel model)
+        public async Task<IActionResult> ProdutoUpdate(ProductViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -75,7 +75,7 @@ namespace LojaShopping.Web.Controllers
 
         [HttpPost]
         [Authorize(Roles = Role.Admin)]
-        public async Task<IActionResult> ProdutoDelete(ProductModel model)
+        public async Task<IActionResult> ProdutoDelete(ProductViewModel model)
         {
             var token = await HttpContext.GetTokenAsync("access_token");
             var response = await _productService.DeleteProductById(model.Id, token);
