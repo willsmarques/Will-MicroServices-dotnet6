@@ -1,6 +1,7 @@
 using AutoMapper;
 using LojaShopping.CartAPI.Configuracao;
 using LojaShopping.CartAPI.Model.Context;
+using LojaShopping.CartAPI.Repositorio;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -25,7 +26,7 @@ namespace LojaShopping.CartAPI
             builder.Services.AddSingleton(mapper);
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-            ///builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
+            builder.Services.AddScoped<ICartRepository, CartRepository>();
 
             builder.Services.AddControllers();
 
