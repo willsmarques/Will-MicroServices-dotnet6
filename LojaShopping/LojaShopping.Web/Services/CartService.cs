@@ -8,7 +8,7 @@ namespace LojaShopping.Web.Services
     public class CartService : ICartService
     {
         private readonly HttpClient _client;
-        public const string BasePath = "api/v1/cart";
+        public const string BasePath = "api/v1/Cart";
 
         public CartService(HttpClient client)
         {
@@ -55,7 +55,7 @@ namespace LojaShopping.Web.Services
         public async Task<bool> RemoveFromCart(long cartId, string token)
         {
             _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            var response = await _client.DeleteAsync($"{BasePath}/remove-cart/{cartId}");
+            var response = await _client.DeleteAsync($"{BasePath}/remover-cart/{cartId}");
             if (response.IsSuccessStatusCode)
                 return await response.ReadContentAs<bool>();
             else throw new Exception("Something went wrong when calling API");

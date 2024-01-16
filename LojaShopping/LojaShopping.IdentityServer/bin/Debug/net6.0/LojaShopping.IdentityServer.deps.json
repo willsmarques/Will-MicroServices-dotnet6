@@ -35,6 +35,7 @@
       "LojaShopping.IdentityServer/1.0.0": {
         "dependencies": {
           "Duende.IdentityServer.AspNetIdentity": "5.2.2",
+          "Humanizer.Core": "2.8.26",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.0",
           "Microsoft.AspNetCore.Identity.UI": "6.0.0",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "6.0.13",
@@ -389,6 +390,9 @@
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.26.1919"
           }
+        },
+        "compile": {
+          "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
       "IdentityModel/5.1.0": {

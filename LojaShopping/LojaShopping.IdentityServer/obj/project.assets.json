@@ -64,7 +64,7 @@
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {
+          "lib/netstandard2.0/Humanizer.dll": {
             "related": ".xml"
           }
         },
@@ -2605,6 +2605,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Duende.IdentityServer.AspNetIdentity >= 5.2.2",
+      "Humanizer.Core >= 2.8.26",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 6.0.13",
@@ -2659,6 +2660,10 @@
           "Duende.IdentityServer.AspNetIdentity": {
             "target": "Package",
             "version": "[5.2.2, )"
+          },
+          "Humanizer.Core": {
+            "target": "Package",
+            "version": "[2.8.26, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",

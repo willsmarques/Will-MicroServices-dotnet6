@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/William/Cursos/Will-MicroServices-dotnet6/LojaShopping/LojaShopping.Web/Views/Cart/CartIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0SW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/William/Cursos/Will-MicroServices-dotnet6/LojaShopping/LojaShopping.Web/Views/Home/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yVqOtNTkTK1QCQ0p1KBESem+cweP1HfM+Tz/GnoiYBEPWnlVgS/HXqfcOStQ37BpgEJe3xJ6ExbnZzZF2XEOmA==",
+  "dgSpecHash": "1fdecTZZXWNWzeIFZwsb+AtINPeMBfQL9no/snWa/fZpU5aSF7PM/5fzn2ek8aRDSEFaIBz49LeMdW9Ku61S7A==",
   "success": true,
   "projectFilePath": "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.IdentityServer\\LojaShopping.IdentityServer.csproj",
   "expectedPackageFiles": [
