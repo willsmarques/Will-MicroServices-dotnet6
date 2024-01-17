@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\LojaShopping.CupomAPI.props" />
+</Project>

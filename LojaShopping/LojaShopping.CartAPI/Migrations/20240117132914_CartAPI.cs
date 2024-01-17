@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace LojaShopping.CartAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class addCartDataTablesOnDB : Migration
+    public partial class CartAPI : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -59,7 +59,6 @@ namespace LojaShopping.CartAPI.Migrations
                     id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     CartHeaderId = table.Column<long>(type: "bigint", nullable: false),
-                    CarHeaderId = table.Column<long>(type: "bigint", nullable: true),
                     ProductId = table.Column<long>(type: "bigint", nullable: false),
                     count = table.Column<int>(type: "int", nullable: false)
                 },
@@ -67,10 +66,11 @@ namespace LojaShopping.CartAPI.Migrations
                 {
                     table.PrimaryKey("PK_cart_detail", x => x.id);
                     table.ForeignKey(
-                        name: "FK_cart_detail_cart_header_CarHeaderId",
-                        column: x => x.CarHeaderId,
+                        name: "FK_cart_detail_cart_header_CartHeaderId",
+                        column: x => x.CartHeaderId,
                         principalTable: "cart_header",
-                        principalColumn: "id");
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_cart_detail_product_ProductId",
                         column: x => x.ProductId,
@@ -81,9 +81,9 @@ namespace LojaShopping.CartAPI.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateIndex(
-                name: "IX_cart_detail_CarHeaderId",
+                name: "IX_cart_detail_CartHeaderId",
                 table: "cart_detail",
-                column: "CarHeaderId");
+                column: "CartHeaderId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_cart_detail_ProductId",

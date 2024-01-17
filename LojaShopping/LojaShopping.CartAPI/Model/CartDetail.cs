@@ -7,8 +7,9 @@ namespace LojaShopping.CartAPI.Model
     public class CartDetail :BaseEntity
     {
         public long CartHeaderId { get; set; }
+        
 
-        [ForeignKey("CarHeaderId")]
+        [ForeignKey("CartHeaderId")]
         public virtual CartHeader CartHeader { get; set; }
 
         public long ProductId {  get; set; }
