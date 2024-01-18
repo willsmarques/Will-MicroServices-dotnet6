@@ -56,5 +56,25 @@ namespace LojaShopping.CartAPI.Controllers
 
             return Ok(status);
         }
+
+        [HttpPost("apply-coupon")]
+        public async Task<ActionResult<CartVO>> ApplyCoupon(CartVO vo)
+        {
+            var status = await _repositorio.ApplyCoupon(vo.CartHeader.UserId, vo.CartHeader.CouponCode);
+            if (!status)
+                return NotFound();
+
+            return Ok(status);
+        }    
+        
+        [HttpDelete("remove-coupon/{userid}")]
+        public async Task<ActionResult<CartVO>> ApplyCoupon(string userid)
+        {
+            var status = await _repositorio.RemoveCoupon(userid);
+            if (!status)
+                return NotFound();
+
+            return Ok(status);
+        }
     }
 }

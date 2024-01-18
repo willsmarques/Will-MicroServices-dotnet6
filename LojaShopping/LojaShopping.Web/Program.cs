@@ -14,10 +14,10 @@ namespace LojaShopping.Web
                      c => c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:ProductAPI"]));
            
             builder.Services.AddHttpClient<ICartService, CartService>(
-                    c => c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:CartAPI"])); 
-            
-            //builder.Services.AddHttpClient<ICupomService, CupomService>(
-            //        c => c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:CupomAPIAPI"]));
+                    c => c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:CartAPI"]));
+
+            builder.Services.AddHttpClient<ICouponSerevice, CouponSerevice>(
+                    c => c.BaseAddress = new Uri(builder.Configuration["ServiceUrls:CupomAPI"]));
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
