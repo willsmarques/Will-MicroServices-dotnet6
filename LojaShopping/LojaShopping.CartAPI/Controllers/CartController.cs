@@ -1,5 +1,6 @@
 using LojaShopping.CartAPI.Data.ValorObjeto;
 using LojaShopping.CartAPI.Messagens;
+using LojaShopping.CartAPI.RabbitMQSender;
 using LojaShopping.CartAPI.Repositorio;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -11,11 +12,12 @@ namespace LojaShopping.CartAPI.Controllers
     public class CartController : ControllerBase
     {
         private ICartRepository _repositorio;
+        private IRabbitMQMessageSender _rabbitMQMessageSender;
 
-        public CartController(ICartRepository repositorio)
+        public CartController(ICartRepository repositorio, IRabbitMQMessageSender rabbitMQMessageSender)
         {
-            _repositorio = repositorio ?? throw new
-                ArgumentNullException(nameof(repositorio));
+            _repositorio = repositorio;
+            _rabbitMQMessageSender = rabbitMQMessageSender;
         }
 
         [HttpGet("find-cart/{id}")]
@@ -81,13 +83,18 @@ namespace LojaShopping.CartAPI.Controllers
         [HttpPost("confirmar")]
         public async Task<ActionResult<ConfirmarHeaderVO>> Confirmar(ConfirmarHeaderVO vo)
         {
+            if (vo?.UserId == null)
+                return BadRequest();
+
             var cart = await _repositorio.FindCartByUserId(vo.UserId);
             if (cart == null)
                 return NotFound();
-            //vo.CarrDetails = cart.CartDetails;
+            vo.CarrDetails = cart.CartDetails;
             vo.DateTime = DateTime.Now;
 
             //TASK RabbitMQ logic comes here!!!
+
+            _rabbitMQMessageSender.SendMessage(vo, "fila_pagamento");
 
             return Ok(vo);
         }

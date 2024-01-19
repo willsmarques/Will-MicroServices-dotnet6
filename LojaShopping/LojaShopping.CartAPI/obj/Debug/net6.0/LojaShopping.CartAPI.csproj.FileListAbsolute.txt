@@ -62,3 +62,6 @@ C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\o
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\obj\Debug\net6.0\LojaShopping.CartAPI.pdb
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\obj\Debug\net6.0\LojaShopping.CartAPI.genruntimeconfig.cache
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\obj\Debug\net6.0\ref\LojaShopping.CartAPI.dll
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.Message.dll
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.Message.pdb

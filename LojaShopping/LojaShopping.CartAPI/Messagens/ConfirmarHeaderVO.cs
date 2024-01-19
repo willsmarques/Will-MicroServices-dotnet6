@@ -1,10 +1,10 @@
 ﻿using LojaShopping.CartAPI.Data.ValorObjeto;
+using LojaShopping.Message;
 
 namespace LojaShopping.CartAPI.Messagens
 {
-    public class ConfirmarHeaderVO
+    public class ConfirmarHeaderVO : BaseMessage
     {
-        public long Id { get; set; }
         public string UserId { get; set; }
         public string CouponCode { get; set; }
         public Decimal ValorFinal { get; set; }

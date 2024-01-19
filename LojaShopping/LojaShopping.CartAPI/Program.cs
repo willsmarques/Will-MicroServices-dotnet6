@@ -1,6 +1,7 @@
 using AutoMapper;
 using LojaShopping.CartAPI.Configuracao;
 using LojaShopping.CartAPI.Model.Context;
+using LojaShopping.CartAPI.RabbitMQSender;
 using LojaShopping.CartAPI.Repositorio;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -27,6 +28,8 @@ namespace LojaShopping.CartAPI
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             builder.Services.AddScoped<ICartRepository, CartRepository>();
+
+            builder.Services.AddSingleton<IRabbitMQMessageSender, RabbitMQMessageSender>();
 
             builder.Services.AddControllers();
 

@@ -1,0 +1,11 @@
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Message\bin\Debug\net6.0\LojaShopping.Message.deps.json
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Message\bin\Debug\net6.0\LojaShopping.Message.dll
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Message\bin\Debug\net6.0\LojaShopping.Message.pdb
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Message\obj\Debug\net6.0\LojaShopping.Message.GeneratedMSBuildEditorConfig.editorconfig
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Message\obj\Debug\net6.0\LojaShopping.Message.AssemblyInfoInputs.cache
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Message\obj\Debug\net6.0\LojaShopping.Message.AssemblyInfo.cs
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Message\obj\Debug\net6.0\LojaShopping.Message.csproj.CoreCompileInputs.cache
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Message\obj\Debug\net6.0\LojaShopping.Message.dll
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Message\obj\Debug\net6.0\refint\LojaShopping.Message.dll
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Message\obj\Debug\net6.0\LojaShopping.Message.pdb
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Message\obj\Debug\net6.0\ref\LojaShopping.Message.dll
