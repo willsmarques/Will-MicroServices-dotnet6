@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "F4N56EultqcqCby2RWvBzlDbzPekoNpcZtGzfkT8Wjw=",
+  "Hash": "UVXjQslP+VCMgJzH/YR2fpr69QM5O+59Wv4r4Zqu9z4=",
   "Source": "LojaShopping.Web",
   "BasePath": "_content/LojaShopping.Web",
   "Mode": "Default",
@@ -129,6 +129,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagens\\geek_shopping.png"
+    },
+    {
+      "Identity": "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.Web\\wwwroot\\Imagens\\order.png",
+      "SourceId": "LojaShopping.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.Web\\wwwroot\\",
+      "BasePath": "_content/LojaShopping.Web",
+      "RelativePath": "Imagens/order.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\order.png"
     },
     {
       "Identity": "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.Web\\wwwroot\\js\\site.js",

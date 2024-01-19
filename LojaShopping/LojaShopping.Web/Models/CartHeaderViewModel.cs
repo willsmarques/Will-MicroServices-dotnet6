@@ -16,8 +16,4 @@ public class CartHeaderViewModel
     public string CVV {  get; set; }
     public string MesAnoExpiracao {  get; set; }
     public DateTime DateTime { get; set; }
-
-
-
-
 }

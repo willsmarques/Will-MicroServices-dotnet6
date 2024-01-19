@@ -94,13 +94,13 @@
                                 Valor Total: @string.Format("{0:c}", Model.CartHeader.ValorFinal)
                                 <br/>
                             </span>
+
                             @if(Model.CartHeader.DescontoTotal > 0)
                             {
                                 <span class="text-success">
                                     Desconto Total: @string.Format("{0:c}", Model.CartHeader.DescontoTotal)
                                     <br />
-                                </span>
-                                
+                                </span>  
                             }
                         </div>
                     </div>
@@ -110,8 +110,8 @@
                     <div class="col-6 col-md-3 offset-md-6">
                     </div>
                     <div class="col-6 col-md-3">
-                        <a asp-action="Checkout" class="btn btn-sucess form-control">
-                            <span>Checkout</span>
+                        <a asp-action="Confirmar" class="btn btn-success form-control">
+                            <span>Confirmar</span>
                         </a>
                     </div>
                 </div>

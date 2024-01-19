@@ -1,4 +1,5 @@
 using LojaShopping.CartAPI.Data.ValorObjeto;
+using LojaShopping.CartAPI.Messagens;
 using LojaShopping.CartAPI.Repositorio;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -75,6 +76,20 @@ namespace LojaShopping.CartAPI.Controllers
                 return NotFound();
 
             return Ok(status);
+        } 
+        
+        [HttpPost("confirmar")]
+        public async Task<ActionResult<ConfirmarHeaderVO>> Confirmar(ConfirmarHeaderVO vo)
+        {
+            var cart = await _repositorio.FindCartByUserId(vo.UserId);
+            if (cart == null)
+                return NotFound();
+            //vo.CarrDetails = cart.CartDetails;
+            vo.DateTime = DateTime.Now;
+
+            //TASK RabbitMQ logic comes here!!!
+
+            return Ok(vo);
         }
     }
 }

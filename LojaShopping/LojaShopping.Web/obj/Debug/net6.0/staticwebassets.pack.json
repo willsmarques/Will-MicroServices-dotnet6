@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\Imagens\\geek_shopping.png"
     },
     {
+      "Id": "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.Web\\wwwroot\\Imagens\\order.png",
+      "PackagePath": "staticwebassets\\Imagens\\order.png"
+    },
+    {
       "Id": "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
