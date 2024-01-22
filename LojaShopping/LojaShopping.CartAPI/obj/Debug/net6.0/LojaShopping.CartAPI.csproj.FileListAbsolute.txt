@@ -65,3 +65,8 @@ C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\o
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\RabbitMQ.Client.dll
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.Message.dll
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.Message.pdb
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.CupomAPI.deps.json
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.CupomAPI.runtimeconfig.json
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.CupomAPI.exe
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.CupomAPI.dll
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.CupomAPI.pdb

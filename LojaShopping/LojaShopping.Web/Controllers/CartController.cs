@@ -89,6 +89,13 @@ namespace LojaShopping.Web.Controllers
 
             var response = await _cartService.confirmar(model.CartHeader, token);
 
+            if ((response != null) && (response.GetType() == typeof(string)))
+            {
+                TempData["Error"] = response;
+                return RedirectToAction(nameof(Confirmar));
+               
+            }
+
             if (response != null)
             {
                 return RedirectToAction(nameof(Confirmation));

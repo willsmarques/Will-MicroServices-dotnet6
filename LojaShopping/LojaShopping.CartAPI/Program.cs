@@ -28,8 +28,12 @@ namespace LojaShopping.CartAPI
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             builder.Services.AddScoped<ICartRepository, CartRepository>();
+            builder.Services.AddScoped<ICupomRepositorio, CupomRepositorio>();
 
             builder.Services.AddSingleton<IRabbitMQMessageSender, RabbitMQMessageSender>();
+
+            builder.Services.AddHttpClient<ICupomRepositorio, CupomRepositorio>(s =>
+            s.BaseAddress = new Uri(builder.Configuration["ServiceUrls:CupomAPI"]));
 
             builder.Services.AddControllers();
 

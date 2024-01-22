@@ -1,0 +1,11 @@
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.ProcessoPagamento\bin\Debug\net6.0\LojaShopping.ProcessoPagamento.deps.json
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.ProcessoPagamento\bin\Debug\net6.0\LojaShopping.ProcessoPagamento.dll
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.ProcessoPagamento\bin\Debug\net6.0\LojaShopping.ProcessoPagamento.pdb
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.ProcessoPagamento\obj\Debug\net6.0\LojaShopping.ProcessoPagamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.ProcessoPagamento\obj\Debug\net6.0\LojaShopping.ProcessoPagamento.AssemblyInfoInputs.cache
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.ProcessoPagamento\obj\Debug\net6.0\LojaShopping.ProcessoPagamento.AssemblyInfo.cs
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.ProcessoPagamento\obj\Debug\net6.0\LojaShopping.ProcessoPagamento.csproj.CoreCompileInputs.cache
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.ProcessoPagamento\obj\Debug\net6.0\LojaShopping.ProcessoPagamento.dll
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.ProcessoPagamento\obj\Debug\net6.0\refint\LojaShopping.ProcessoPagamento.dll
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.ProcessoPagamento\obj\Debug\net6.0\LojaShopping.ProcessoPagamento.pdb
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.ProcessoPagamento\obj\Debug\net6.0\ref\LojaShopping.ProcessoPagamento.dll

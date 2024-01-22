@@ -732,6 +732,28 @@
           }
         }
       },
+      "LojaShopping.CupomAPI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.0",
+          "Pomelo.EntityFrameworkCore.MySql": "7.0.0",
+          "Swashbuckle.AspNetCore": "6.5.0",
+          "Swashbuckle.AspNetCore.Annotations": "6.5.0",
+          "Swashbuckle.AspNetCore.SwaggerUI": "6.5.0"
+        },
+        "compile": {
+          "bin/placeholder/LojaShopping.CupomAPI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LojaShopping.CupomAPI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "LojaShopping.Message/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2107,6 +2129,11 @@
         "version.txt"
       ]
     },
+    "LojaShopping.CupomAPI/1.0.0": {
+      "type": "project",
+      "path": "../LojaShopping.CupomAPI/LojaShopping.CupomAPI.csproj",
+      "msbuildProject": "../LojaShopping.CupomAPI/LojaShopping.CupomAPI.csproj"
+    },
     "LojaShopping.Message/1.0.0": {
       "type": "project",
       "path": "../LojaShopping.Message/LojaShopping.Message.csproj",
@@ -2117,6 +2144,7 @@
     "net6.0": [
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
+      "LojaShopping.CupomAPI >= 1.0.0",
       "LojaShopping.Message >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.14",
@@ -2159,6 +2187,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.CupomAPI\\LojaShopping.CupomAPI.csproj": {
+              "projectPath": "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.CupomAPI\\LojaShopping.CupomAPI.csproj"
+            },
             "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.Message\\LojaShopping.Message.csproj": {
               "projectPath": "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.Message\\LojaShopping.Message.csproj"
             }

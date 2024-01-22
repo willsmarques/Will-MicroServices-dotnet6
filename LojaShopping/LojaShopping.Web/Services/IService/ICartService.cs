@@ -13,6 +13,6 @@ namespace LojaShopping.Web.Services.IService
         Task<bool> RemoveCoupon(string userId, string token);
         Task<bool> ClearCart(string userId, string token);
 
-        Task<CartHeaderViewModel> confirmar(CartHeaderViewModel cartHeader,string token);
+        Task<object> confirmar(CartHeaderViewModel cartHeader,string token);
     }
 }

@@ -64,12 +64,12 @@ C:\William\Cursos\Microservico\Will-MicroServices-dotnet6\LojaShopping\LojaShopp
 C:\William\Cursos\Microservico\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Web\bin\Debug\net6.0\LojaShopping.ProductAPI.dll
 C:\William\Cursos\Microservico\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Web\bin\Debug\net6.0\LojaShopping.ProductAPI.pdb
 C:\William\Cursos\Microservico\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Web\obj\Debug\net6.0\LojaShopping.Web.csproj.CopyComplete
-C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Web\bin\Debug\net6.0\LojaShopping.ProductAPI.deps.json
-C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Web\bin\Debug\net6.0\LojaShopping.ProductAPI.runtimeconfig.json
-C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Web\bin\Debug\net6.0\LojaShopping.ProductAPI.exe
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Web\bin\Debug\net6.0\appsettings.Development.json
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Web\bin\Debug\net6.0\appsettings.json
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Web\bin\Debug\net6.0\LojaShopping.Web.staticwebassets.runtime.json
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Web\bin\Debug\net6.0\LojaShopping.ProductAPI.deps.json
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Web\bin\Debug\net6.0\LojaShopping.ProductAPI.runtimeconfig.json
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Web\bin\Debug\net6.0\LojaShopping.ProductAPI.exe
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Web\bin\Debug\net6.0\LojaShopping.Web.exe
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Web\bin\Debug\net6.0\LojaShopping.Web.deps.json
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.Web\bin\Debug\net6.0\LojaShopping.Web.runtimeconfig.json

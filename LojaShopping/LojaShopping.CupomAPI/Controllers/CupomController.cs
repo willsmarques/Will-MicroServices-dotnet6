@@ -1,5 +1,6 @@
 using LojaShopping.CupomAPI.Data.ValorObjeto;
 using LojaShopping.CupomAPI.Repositorio;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,6 +22,7 @@ namespace LojaShopping.CupomAPI.Controllers
         [Authorize]
         public async Task<ActionResult<CupomVO>> GetCupomByCupomCod(string codCupom)
         {
+           // var token = await HttpContext.GetTokenAsync("acess_token");
             var cupom = await _repositorio.GetCupomByCupomCod(codCupom);
             if (cupom == null)
                 return NotFound();

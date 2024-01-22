@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "S/5Exphwq6DAu5nwI/HItrfgwl0sYNGFm07Zd2vhMag=",
+  "Hash": "EduaO+F9a4jxm82q5kIhRxkM6j+5TA9P7k/LXWxs4zA=",
   "Source": "LojaShopping.CartAPI",
   "BasePath": "_content/LojaShopping.CartAPI",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\William\\Cursos\\Will-MicroServices-dotnet6\\LojaShopping\\LojaShopping.CupomAPI\\LojaShopping.CupomAPI.csproj",
+      "Version": 2,
+      "Source": "LojaShopping.CupomAPI",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }
