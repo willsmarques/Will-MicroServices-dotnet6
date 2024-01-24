@@ -360,13 +360,13 @@ C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.IdentityS
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.IdentityServer\obj\Debug\net6.0\LojaShopping.IdentityServer.MvcApplicationPartsAssemblyInfo.cache
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.IdentityServer\obj\Debug\net6.0\LojaShopping.IdentityServer.RazorAssemblyInfo.cache
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.IdentityServer\obj\Debug\net6.0\LojaShopping.IdentityServer.RazorAssemblyInfo.cs
-C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.IdentityServer\obj\Debug\net6.0\staticwebassets.build.json
-C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.IdentityServer\obj\Debug\net6.0\staticwebassets.development.json
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.IdentityServer\obj\Debug\net6.0\staticwebassets\msbuild.LojaShopping.IdentityServer.Microsoft.AspNetCore.StaticWebAssets.props
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.IdentityServer\obj\Debug\net6.0\staticwebassets\msbuild.build.LojaShopping.IdentityServer.props
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.IdentityServer\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LojaShopping.IdentityServer.props
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.IdentityServer\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.LojaShopping.IdentityServer.props
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.IdentityServer\obj\Debug\net6.0\staticwebassets.pack.json
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.IdentityServer\obj\Debug\net6.0\staticwebassets.build.json
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.IdentityServer\obj\Debug\net6.0\staticwebassets.development.json
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.IdentityServer\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.IdentityServer\obj\Debug\net6.0\scopedcss\bundle\LojaShopping.IdentityServer.styles.css
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.IdentityServer\obj\Debug\net6.0\scopedcss\projectbundle\LojaShopping.IdentityServer.bundle.scp.css

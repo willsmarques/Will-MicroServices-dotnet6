@@ -66,7 +66,7 @@ namespace LojaShopping.PagamentoAPI.MessagemConsumida
 
             try
             {
-                _rabbitMQMessageSender.SendMessage(atualizacaoPagamentoMensagem, "orderpagamentoresultado");
+                _rabbitMQMessageSender.SendMessage(atualizacaoPagamentoMensagem);
 
 
             }

@@ -1,3 +1,6 @@
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.CupomAPI.deps.json
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.CupomAPI.runtimeconfig.json
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.CupomAPI.exe
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\appsettings.Development.json
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\appsettings.json
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.CartAPI.exe
@@ -32,6 +35,7 @@ C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\b
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\Mono.TextTemplating.dll
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\MySqlConnector.dll
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\RabbitMQ.Client.dll
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -41,6 +45,10 @@ C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\b
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\System.Text.Json.dll
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.CupomAPI.dll
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.Message.dll
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.CupomAPI.pdb
+C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.Message.pdb
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\obj\Debug\net6.0\LojaShopping.CartAPI.csproj.AssemblyReference.cache
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\obj\Debug\net6.0\LojaShopping.CartAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\obj\Debug\net6.0\LojaShopping.CartAPI.AssemblyInfoInputs.cache
@@ -62,11 +70,3 @@ C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\o
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\obj\Debug\net6.0\LojaShopping.CartAPI.pdb
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\obj\Debug\net6.0\LojaShopping.CartAPI.genruntimeconfig.cache
 C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\obj\Debug\net6.0\ref\LojaShopping.CartAPI.dll
-C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\RabbitMQ.Client.dll
-C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.Message.dll
-C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.Message.pdb
-C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.CupomAPI.deps.json
-C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.CupomAPI.runtimeconfig.json
-C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.CupomAPI.exe
-C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.CupomAPI.dll
-C:\William\Cursos\Will-MicroServices-dotnet6\LojaShopping\LojaShopping.CartAPI\bin\Debug\net6.0\LojaShopping.CupomAPI.pdb

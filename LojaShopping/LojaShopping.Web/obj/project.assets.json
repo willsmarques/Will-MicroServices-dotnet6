@@ -121,7 +121,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.0": {
+      "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.0-preview.7.21378.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.10.0"
@@ -297,11 +297,11 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.0": {
+      "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.0-preview.7.21378.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Razor.Language": "6.0.0",
-          "Microsoft.CodeAnalysis.Razor": "6.0.0"
+          "Microsoft.AspNetCore.Razor.Language": "6.0.0-preview.7.21378.6",
+          "Microsoft.CodeAnalysis.Razor": "6.0.0-preview.7.21378.6"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {}
@@ -310,12 +310,12 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/6.0.0": {
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/6.0.0-preview.7.21378.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Razor.Extensions": "6.0.0",
-          "Microsoft.CodeAnalysis.Razor": "6.0.0",
-          "Microsoft.Extensions.DependencyModel": "6.0.0"
+          "Microsoft.AspNetCore.Mvc.Razor.Extensions": "6.0.0-preview.7.21378.6",
+          "Microsoft.CodeAnalysis.Razor": "6.0.0-preview.7.21378.6",
+          "Microsoft.Extensions.DependencyModel": "6.0.0-preview.7.21377.19"
         },
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll": {
@@ -334,7 +334,7 @@
           "buildTransitive/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Razor.Language/6.0.0": {
+      "Microsoft.AspNetCore.Razor.Language/6.0.0-preview.7.21378.6": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {}
@@ -366,7 +366,7 @@
           "build/_._": {}
         }
       },
-      "Microsoft.CodeAnalysis.Common/4.0.0": {
+      "Microsoft.CodeAnalysis.Common/4.0.0-2.21354.7": {
         "type": "package",
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "3.3.2",
@@ -429,10 +429,10 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.CSharp/4.0.0": {
+      "Microsoft.CodeAnalysis.CSharp/4.0.0-2.21354.7": {
         "type": "package",
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "[4.0.0]"
+          "Microsoft.CodeAnalysis.Common": "[4.0.0-2.21354.7]"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll": {
@@ -486,12 +486,12 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.Razor/6.0.0": {
+      "Microsoft.CodeAnalysis.Razor/6.0.0-preview.7.21378.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Razor.Language": "6.0.0",
-          "Microsoft.CodeAnalysis.CSharp": "4.0.0",
-          "Microsoft.CodeAnalysis.Common": "4.0.0"
+          "Microsoft.AspNetCore.Razor.Language": "6.0.0-preview.7.21378.6",
+          "Microsoft.CodeAnalysis.CSharp": "4.0.0-2.21354.7",
+          "Microsoft.CodeAnalysis.Common": "4.0.0-2.21354.7"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.dll": {}
@@ -1537,10 +1537,10 @@
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.0": {
-      "sha512": "cJxdro36spFzk/K2OFCddM6vZ+yoj6ug8mTFRH3Gdv1Pul/buSuCtfb/FSCp31UmS5S4C1315dU7wX3ErLFuDg==",
+    "Microsoft.AspNetCore.Authentication.OpenIdConnect/6.0.0-preview.7.21378.6": {
+      "sha512": "wraZBHutc5hkiRFOvxVsiZYJZD5MF33fPudNHBN3l7M8O+cNLVK/cHZRjGIJetwkvRYwrgkuxYQVrgTLE1ktbg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.authentication.openidconnect/6.0.0",
+      "path": "microsoft.aspnetcore.authentication.openidconnect/6.0.0-preview.7.21378.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1548,7 +1548,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll",
         "lib/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.xml",
-        "microsoft.aspnetcore.authentication.openidconnect.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.openidconnect.6.0.0-preview.7.21378.6.nupkg.sha512",
         "microsoft.aspnetcore.authentication.openidconnect.nuspec"
       ]
     },
@@ -1669,24 +1669,24 @@
         "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.0": {
-      "sha512": "M0h+ChPgydX2xY17agiphnAVa/Qh05RAP8eeuqGGhQKT10claRBlLNO6d2/oSV8zy0RLHzwLnNZm5xuC/gckGA==",
+    "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.0-preview.7.21378.6": {
+      "sha512": "HOYQ5YbZl/Y9N0VwpkJU7mr4w4JueaQqfGr9xZ1lup89wqk76pZYPesJZMjEd8RODS+R8pPP7H02jzGKd8EXWQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.razor.extensions/6.0.0",
+      "path": "microsoft.aspnetcore.mvc.razor.extensions/6.0.0-preview.7.21378.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll",
-        "microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.razor.extensions.6.0.0-preview.7.21378.6.nupkg.sha512",
         "microsoft.aspnetcore.mvc.razor.extensions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/6.0.0": {
-      "sha512": "bf4kbla/8Qiu53MgFPz1u3H1ThoookPpFy+Ya9Q9p531wXK1pZ3tfz/Gtx8SKy41yz99jhZHTUM1QqLl7eJRgQ==",
+    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/6.0.0-preview.7.21378.6": {
+      "sha512": "HWgR0tvGZOcNaNicqCZicDtTtD5v1PBVKXS0GBqPllDRh2OPnLug1lWovR6FgDhwFx3uC0Z7HRJkfaRO3TaJ3A==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/6.0.0",
+      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/6.0.0-preview.7.21378.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1696,21 +1696,21 @@
         "buildTransitive/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets",
         "lib/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll",
         "lib/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.xml",
-        "microsoft.aspnetcore.mvc.razor.runtimecompilation.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.razor.runtimecompilation.6.0.0-preview.7.21378.6.nupkg.sha512",
         "microsoft.aspnetcore.mvc.razor.runtimecompilation.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Razor.Language/6.0.0": {
-      "sha512": "yCtBr1GSGzJrrp1NJUb4ltwFYMKHw/tJLnIDvg9g/FnkGIEzmE19tbCQqXARIJv5kdtBgsoVIdGLL+zmjxvM/A==",
+    "Microsoft.AspNetCore.Razor.Language/6.0.0-preview.7.21378.6": {
+      "sha512": "mJTZSGrBJvFd7TuIpRuEwDWtYmJqmsE+uoZFNsFrB0fz/zZ4GM9m19IajBYW9/us2/BbCHrMuB1P5wwVzioazg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.razor.language/6.0.0",
+      "path": "microsoft.aspnetcore.razor.language/6.0.0-preview.7.21378.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll",
-        "microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.razor.language.6.0.0-preview.7.21378.6.nupkg.sha512",
         "microsoft.aspnetcore.razor.language.nuspec"
       ]
     },
@@ -1837,10 +1837,10 @@
         "tools/uninstall.ps1"
       ]
     },
-    "Microsoft.CodeAnalysis.Common/4.0.0": {
-      "sha512": "d02ybMhUJl1r/dI6SkJPHrTiTzXBYCZeJdOLMckV+jyoMU/GGkjqFX/sRbv1K0QmlpwwKuLTiYVQvfYC+8ox2g==",
+    "Microsoft.CodeAnalysis.Common/4.0.0-2.21354.7": {
+      "sha512": "C0c463vmlc/v8VBkhS5TV+EV4FuBS7hU6ab2J3pHW+kokqsSibgxRQHRYm/OTmcd7fDSAYsY41Wk8H6i4RaI1Q==",
       "type": "package",
-      "path": "microsoft.codeanalysis.common/4.0.0",
+      "path": "microsoft.codeanalysis.common/4.0.0-2.21354.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1878,14 +1878,14 @@
         "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.resources.dll",
         "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
-        "microsoft.codeanalysis.common.4.0.0.nupkg.sha512",
+        "microsoft.codeanalysis.common.4.0.0-2.21354.7.nupkg.sha512",
         "microsoft.codeanalysis.common.nuspec"
       ]
     },
-    "Microsoft.CodeAnalysis.CSharp/4.0.0": {
-      "sha512": "2UVTGtyQGgTCazvnT6t82f+7AV2L+kqJdyb61rT9GQed4yK+tVh5IkaKcsm70VqyZQhBbDqsfZFNHnY65xhrRw==",
+    "Microsoft.CodeAnalysis.CSharp/4.0.0-2.21354.7": {
+      "sha512": "DYsziR1WJdjrcJIiZjPilJBMVBaXXM3NujcRD77f7+ZmTHBAXs5rN3DxlhbEdxAxFu5g5Vf2TGbD0ZAPKin1qQ==",
       "type": "package",
-      "path": "microsoft.codeanalysis.csharp/4.0.0",
+      "path": "microsoft.codeanalysis.csharp/4.0.0-2.21354.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1923,21 +1923,21 @@
         "lib/netstandard2.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
         "lib/netstandard2.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
-        "microsoft.codeanalysis.csharp.4.0.0.nupkg.sha512",
+        "microsoft.codeanalysis.csharp.4.0.0-2.21354.7.nupkg.sha512",
         "microsoft.codeanalysis.csharp.nuspec"
       ]
     },
-    "Microsoft.CodeAnalysis.Razor/6.0.0": {
-      "sha512": "uqdzuQXxD7XrJCbIbbwpI/LOv0PBJ9VIR0gdvANTHOfK5pjTaCir+XcwvYvBZ5BIzd0KGzyiamzlEWw1cK1q0w==",
+    "Microsoft.CodeAnalysis.Razor/6.0.0-preview.7.21378.6": {
+      "sha512": "roE0IWNpnu7YP83QYarVp459udFW13WS/eI2KFz/ikuBrd2irermWnaoHizsDFYKaijtex9EJdjoU6GQbiqIIA==",
       "type": "package",
-      "path": "microsoft.codeanalysis.razor/6.0.0",
+      "path": "microsoft.codeanalysis.razor/6.0.0-preview.7.21378.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.dll",
-        "microsoft.codeanalysis.razor.6.0.0.nupkg.sha512",
+        "microsoft.codeanalysis.razor.6.0.0-preview.7.21378.6.nupkg.sha512",
         "microsoft.codeanalysis.razor.nuspec"
       ]
     },
@@ -3641,8 +3641,8 @@
     "net6.0": [
       "LojaShopping.ProductAPI >= 1.0.0",
       "Microsoft.AspNetCore.Authentication >= 2.2.0",
-      "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 6.0.0",
-      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 6.0.0",
+      "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 6.0.0-preview.7.21378.6",
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 6.0.0-preview.7.21378.6",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.14",
       "System.IdentityModel.Tokens.Jwt >= 6.12.2"
     ]
@@ -3701,11 +3701,11 @@
           },
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
             "target": "Package",
-            "version": "[6.0.0, )"
+            "version": "[6.0.0-preview.7.21378.6, )"
           },
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
             "target": "Package",
-            "version": "[6.0.0, )"
+            "version": "[6.0.0-preview.7.21378.6, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
