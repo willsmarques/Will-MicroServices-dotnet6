@@ -12,7 +12,9 @@ namespace LojaShopping.PagamentoAPI.RabbitMQSender
         private readonly string _password;
         private readonly string _userName;
         private IConnection _connection;
-        private const string ExchangeName = "FanoutPagamento";
+        private const string ExchangeName = "DirectFanoutPagamentoExchange";
+        private const string PagamentoEmailAtualizacaoNome = "PagamentoEmailAtualizacaoNome";
+        private const string PagamentoOrdemAtualizacao = "PagamentoOrdemAtualizacao";
 
         public RabbitMQMessageSender()
         {
@@ -26,10 +28,19 @@ namespace LojaShopping.PagamentoAPI.RabbitMQSender
          if(ConnectioExiste())
             {
                 using var channel = _connection.CreateModel();
-                channel.ExchangeDeclare(ExchangeName, ExchangeType.Fanout, durable: false);
+
+                channel.ExchangeDeclare(ExchangeName, ExchangeType.Direct, durable: false);
+                channel.QueueDeclare(PagamentoEmailAtualizacaoNome, false,false,false,null);
+                channel.QueueDeclare(PagamentoOrdemAtualizacao, false, false, false, null);
+
+                channel.QueueBind(PagamentoEmailAtualizacaoNome, ExchangeName, "PagamentoEmail");
+                channel.QueueBind(PagamentoOrdemAtualizacao, ExchangeName, "PagamentoOrdem");
+
                 byte[] body = GetMessageAsByteArray(message);
                 channel.BasicPublish(
-                    exchange: ExchangeName, "", basicProperties: null, body: body);
+                    exchange: ExchangeName, "PagamentoEmail", basicProperties: null, body: body);
+                channel.BasicPublish(
+                    exchange: ExchangeName, "PagamentoOrdem", basicProperties: null, body: body);
             }
         }
 

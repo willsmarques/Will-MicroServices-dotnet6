@@ -14,8 +14,8 @@ namespace LojaShopping.OrderAPI.MessagemConsumida
         private readonly OrderRepository _repository;
         private IConnection _connection;
         private IModel _channel;
-        private const string ExchangeName = "FanoutPagamento";
-        string queueName = "";
+        private const string ExchangeName = "DirectFanoutPagamentoExchange";
+        private const string PagamentoOrdemAtualizacao = "PagamentoOrdemAtualizacao";
 
         public RabbitMQPagamentoConsumida(OrderRepository repository)
         {
@@ -30,9 +30,10 @@ namespace LojaShopping.OrderAPI.MessagemConsumida
             _connection = factory.CreateConnection();
 
            _channel = _connection.CreateModel();
-           _channel.ExchangeDeclare(ExchangeName, ExchangeType.Fanout);
-            queueName = _channel.QueueDeclare().QueueName;
-           _channel.QueueBind(queueName, ExchangeName, "");
+
+            _channel.ExchangeDeclare(ExchangeName, ExchangeType.Direct);
+            _channel.QueueDeclare(PagamentoOrdemAtualizacao, false, false, false, null);
+            _channel.QueueBind(PagamentoOrdemAtualizacao, ExchangeName, "PagamentoOrdem");
         }
 
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
@@ -46,7 +47,7 @@ namespace LojaShopping.OrderAPI.MessagemConsumida
                 AtualizarPagamentoStatus(vo).GetAwaiter().GetResult();
                 _channel.BasicAck(evt.DeliveryTag, false);
             };
-            _channel.BasicConsume(queueName, false, consumer);
+            _channel.BasicConsume(PagamentoOrdemAtualizacao, false, consumer);
             return Task.CompletedTask;
 
 

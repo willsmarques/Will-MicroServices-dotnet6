@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5RlKaBGgMdR6lUHjltqzlmCu83R5WV2oAowQNdsE2iQ=",
+  "Source": "LojaShoppingAPIGateway",
+  "BasePath": "_content/LojaShoppingAPIGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
