@@ -1,4 +1,4 @@
-# Microsserviços .NET 7 e ASP.NET(EM CONTRUÇÃO)
+# Microsserviços .NET 6 e ASP.NET(Finalizador)
 
 ## Criando um sistema de e-commerce com microsserviços .NET 7 e ASP.NET
 
